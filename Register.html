@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="register">
+    <form action="action.js">
+    <center>
+        <H3><center><b>Register Here</b></center></H3>
+        <table>
+            <tr>
+                <td>Fisrt Name:</td>
+                <td> <input type="text" placeholder="firstname"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td> <input type="text" placeholder="lastname"></td>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td> <input type="text" placeholder="username"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td> <input type="text" placeholder="enter email"></td>        
+            </tr>
+            <tr>
+                <td>Confirm Email:</td>
+                <td> <input type="text" placeholder="re-enter email"></td>
+            </tr>
+            <tr>
+                <td>Mob No:</td>
+                <td> <select name="code" id="code">
+                    <option name="+01"> +01</option>
+                    <option name="+02"> +02</option>
+                    <option name="+03"> +03</option>
+                    <option name="+91", main="+91"> +91</option>
+                    <option name="+92"> +92</option>
+                    <option name="+93"> +93</option>
+                </select></td>
+                <td> <input type="text" placeholder="12xxxxxxxx" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td> <input type="text" placeholder="enter password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+                <td> <input type="password" placeholder="re-enter password"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" value="male" name="gender">Male</td>
+                <td><input type="radio" value="Female" name="gender">Female</td>
+                <td><input type="radio" value="Others" name="gender">Others</td> 
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td><input type="date" placeholder="dd/mm/yyyy"></td>
+            </tr><br>
+            <tr>
+                <td><input type="checkbox" value="terms&conditions" name="privacy policy">
+                I agree for the <a href="Terms & Conditions">Terms & Conditions</a></td>
+            </tr>
+            <tr>
+                <td><center>
+                    <input type="submit" value="submit" name="submit">
+                </center></td>
+            </tr>
+            <tr>
+                <td>Already have an acount</td>
+                <td><a href="Login.html" style="color:crimson"> Login Here</a></td>
+            </tr>
+        </table>
+    </center>
+</form>
+</body>
+</html>
